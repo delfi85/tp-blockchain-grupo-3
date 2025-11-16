@@ -1,0 +1,30 @@
+{
+  "name": "ejercicios-solidity-hardhat",
+  "version": "1.0.0",
+  "description": "Proyecto Hardhat educativo para practicar Solidity y deploy en Polygon Amoy",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:local": "hardhat run scripts/test-local.js",
+    "demo": "hardhat run scripts/demo.js",
+    "demo:interactive": "hardhat run scripts/demo-interactive.js",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:amoy": "hardhat run scripts/deploy.js --network amoy"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat",
+    "polygon",
+    "blockchain",
+    "smart-contracts"
+  ],
+  "author": "UTN Blockchain",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
